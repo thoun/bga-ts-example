@@ -1,0 +1,17 @@
+{
+    "rootDir": ".", 
+    "compilerOptions": {
+      "target": "es5",
+      "module": "none",
+      "lib": ["dom", "esnext"],  
+      "sourceMap": false,
+      "outFile": "yourgamename.js",
+    },
+    "files": [        
+        "src/framework.d.ts",
+        "src/stock.d.ts",
+        "src/yourgamename.d.ts",
+        "src/yourgamename.ts",
+        "src/define.ts"
+    ]
+}
